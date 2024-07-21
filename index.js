@@ -130,8 +130,8 @@ app.post("/createBooking", function (req, res) {
 }
 });
 
-
-const RoomWithBooked = {
+post :
+const AllRooms = {
      RoomNo: 101,
     BookedStatus: "success",
     CustomerName: "pooja",
@@ -139,4 +139,24 @@ const RoomWithBooked = {
     StartTime: "11:00 AM",
     EndTime:"11:00 PM",
     }
+
+get :
+const CreateRoom ={
+    "noSeats": 3,
+    "amenities": ["AC", "Tv","Wifi"],
+    "price": 90,
+        
+}
+
+post :
+const RoomBooking ={
+  customerName:"pooja",
+  date:"19-07-2024",
+  StartTime:"11:00 AM",
+  EndTime:"11:00 PM",
+ customerId:1
+        
+}
+
+
 
