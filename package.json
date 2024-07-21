@@ -1,0 +1,15 @@
+{
+  "name": "Hall-Booking",
+  "version": "1.0.0",
+  "description": "the file that can able to create,update,and get & post API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "poojoo.shree@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
